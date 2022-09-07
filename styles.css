@@ -37,3 +37,52 @@ a {
     display: flex;
     margin-left: auto;
 }
+
+.container {
+    display: flex;
+    background: #1F2937;
+    padding: 0 120px;
+    margin: 0;
+    /* flex: 1; */
+    height: 350px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.intro {
+    height: 150px;
+    width: 400px;
+}
+
+.title {
+    font-size: 35px;
+    color: #F9FAF8;
+    font-weight: 750;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 220;
+    margin-bottom: 7px;
+}
+
+.button-one {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 15px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+img {
+    width: 400px;
+    height: 150px;
+    margin-left: auto;
+}
+
