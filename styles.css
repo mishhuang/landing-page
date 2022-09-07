@@ -43,10 +43,9 @@ a {
     background: #1F2937;
     padding: 0 120px;
     margin: 0;
-    /* flex: 1; */
+    flex: 1 0 auto;
     height: 350px;
     align-items: center;
-    flex-shrink: 0;
 }
 
 .intro {
@@ -58,17 +57,14 @@ a {
     font-size: 35px;
     color: #F9FAF8;
     font-weight: 750;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .subtext {
     font-size: 16px;
     color: #E5E7EB;
-    display: flex;
-    flex-wrap: wrap;
     font-weight: 250;
     margin-bottom: 7px;
+    width: 400px;
 }
 
 .button-one {
