@@ -137,6 +137,7 @@ h2 {
 
 .name {
     align-self: flex-end;
+    font-weight: 600;
 }
 
 .banner {
